@@ -1,0 +1,2 @@
+KERNEL=="BAT0", SUBSYSTEM=="power_supply", ACTION=="change", ENV{DISPLAY}=":0", ENV{XAUTHORITY}="/home/dennis/.Xauthority", RUN+="/bin/bash /home/dennis/power_rr.sh"
+
